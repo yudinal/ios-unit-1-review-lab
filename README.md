@@ -190,20 +190,23 @@ e. Add a method called `totalGrowth` that returns a double representing the chan
 
 ## Question 8
 
+```swift
 enum GameOfThronesHouse: String {
     case stark, lannister, targaryen, baratheon
 }
-
+```
 
 a. Write a function that takes an instance of GameOfThronesHouse as input and, using a switch statement, returns the correct house words.
 
-// House Baratheon - Ours is the Fury
+```
+House Baratheon - Ours is the Fury
 
-// House Stark - Winter is coming
+House Stark - Winter is coming
 
-// House Targaryen - Fire and Blood
+House Targaryen - Fire and Blood
 
-// House Lannister - A Lannister always pays his debts
+House Lannister - A Lannister always pays his debts
+```
 
 b. Move that function to inside the enum as a method
 
